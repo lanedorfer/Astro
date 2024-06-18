@@ -1,6 +1,4 @@
-/*
 using System;
-using UnityEngine;
 using UnityEngine;
 
 public class ShootingController : MonoBehaviour
@@ -21,4 +19,3 @@ public class ShootingController : MonoBehaviour
       Instantiate(_shot, _shotSpawn.position, _shotSpawn.rotation);
    }
 }
-*/

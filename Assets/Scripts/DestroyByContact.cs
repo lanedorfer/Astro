@@ -8,7 +8,10 @@ public class DestroyByContact : MonoBehaviour
     [SerializeField] private GameObject _explosion;
     [SerializeField] private GameObject _playerExplosion;
 
-    private int _scoreValue;
+    // private int _scoreValue;
+
+    // private int scoreValue;
+    
     
     void Start()
     {
@@ -34,5 +37,7 @@ public class DestroyByContact : MonoBehaviour
         
         Destroy(other.gameObject);
         Destroy(gameObject);
+
+      //  GameController.AddScore(_scoreValue);
     }
 }

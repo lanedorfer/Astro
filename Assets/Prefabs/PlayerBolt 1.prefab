@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8392542865808661065}
   m_Layer: 0
   m_Name: PlayerBolt 1
-  m_TagString: Untagged
+  m_TagString: Bolt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
